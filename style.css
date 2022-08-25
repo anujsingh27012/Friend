@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Playfair+Display:ital@1&family=Ubuntu&display=swap');
+body{
+    flex-wrap: wrap;
+}
+.container {
+    border: 1.5px solid purple;
+    height: 705px;
+    width: 1350px;
+    background-image: url(Friend.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: -11px;
+    margin-top: -167px;
+    margin-bottom: 10px;
+
+
+}
+
+.logo img {
+    display: flex;
+    height: 158px;
+    width: 182px;
+     cursor: pointer;
+
+}
+
+.navbar ul {
+    margin-top: -729px;
+    margin-right: 139px;
+}
+
+.navbar ul li {
+    border: 3px solid rgb(194 85 85);
+    border-radius: 5px;
+    float: right;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #a34c4d;
+    ;
+    font-weight: bolder;
+    margin: 20px;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+#Register {
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+.navbar ul li:hover {
+    
+    background-color:rgb(179,167,153) ;
+    color: white;
+    
+    font-size: 1.1em;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.main h1 {
+    text-align: center;
+    margin-top: -31px;
+    font-size: 159px;
+    color: #633d0c;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+.main p {
+    font-size: larger;
+    color: #ff0757;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 165px;
+}
+
+.question h1 {
+    font-size: 55px;
+    color: #743120;
+    text-align: center;
+    border: 2px solid red;
+    font-size: 55px;
+    text-align: center;
+    border: 2px solid red;
+    background-color: #c7d5e1;
+    margin-left:239px;
+    width: 900px;
+    margin-top: 130px;
+}
+
+.question button {
+    font-size: 30px;
+    background-color: blue;
+    margin-left: 500px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 340px;
+    margin-top: -10px;
+}
+.content{
+    border: 2px solid black;
+    margin-top: 47px;
+    height: 399px;
+    width: 1240px;
+    margin-left: 46px;
+}
+.content h1{
+    text-align: center;
+    font-size: 50px;
+}
+.content p{
+    margin-left: 3px; 
+    justify-content: center;
+    align-self: center;
+}
+.content button{
+    margin-left: 450px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.table {
+    background-color: rgb(6 45 41);
+    height: 1050px;
+    width: 1342px;
+    padding-left: 0px;
+  }
+  .table h1{
+    color: rgb(243, 193, 132);
+    text-shadow: 5px whitesmoke;
+    font-size: 60px;
+    text-align: center;
+  }
+  table {
+    border-collapse: collapse;
+    margin-left: 233px;
+    width: 300px;
+
+  }
+
+  .table thead tr th {
+    font-size: 34px;
+    padding: 66px;
+    color: white;
+
+  }
+
+  .table tbody tr td {
+    color: aliceblue;
+    font-size: 28.8px;
+    padding: 20px;
+
+  }
+
+  .quote p{
+    font-size: 33px;
+    color: rgb(185, 114, 114);
+    margin-left: 80px;
+    text-decoration: underline;
+}
+
+ .friendPic{
+    background-color: rgb(2, 29, 41);
+  }
+  .friendPic ul{
+   display: flex;
+   
+  }
+  .friendPic ul li{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding-left: 50px;
+    font-size: 20px;
+  }
+  
+  .photo ul{
+       display: flex;
+       background-color: #031e20
+    }
+    .photo ul li{
+      display: block;
+      color: rgb(247, 241, 241);
+      font-size: 1.3rem;
+      padding: 43px;
+    }
+
+    .photo ul li img{
+      height: 164px;
+      display: flex;
+      width: 119px;
+    }
+    .Gphoto{
+      background-color: rgb(2, 29, 41);
+      margin-top: -32px;
+      height: 300px;
+    }
+
+    .Gphoto ul{
+      display: flex;
+
+    }
+    .Gphoto ul li{
+      display: block;
+      color: rgb(247, 241, 241);
+      font-size: 1.3rem;
+      padding: -20px;
+    }
+    .Gphoto img{
+      height: 165px;
+      width: 238px;
+      margin-left:281px;
+      display: flex;
+    }
+    .Gphoto ul li img{
+      height: 164px;
+      display: flex;
+      width: 119px;
+    } 
